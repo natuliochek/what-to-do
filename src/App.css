@@ -1,0 +1,48 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #B2C6D5;
+  color: #685454;
+}
+h1{
+  color: #732255;
+}
+h2{
+  color: #E7F2E4;
+  font-style: italic;
+}
+h3{
+  color: #732255;
+  font-style: italic;
+  text-transform: uppercase;
+}
+p{
+  color: #732255;
+}
+.main-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #E7F2E4; */
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  margin: 8px;
+}
+button{
+  background-color: transparent;
+  padding: 12px;
+  margin: 8px;
+  border: #732255 1px solid;
+  border-radius: 50px;
+  color: #732255;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+button:hover{
+  background-color: #732255;
+  color: #E7F2E4;
+  
+}
