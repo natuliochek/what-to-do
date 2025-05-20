@@ -1,28 +1,35 @@
 body{
   font-family: "Roboto", sans-serif;
-  background-color: #B2C6D5;
-  color: #685454;
+  background-color: #685454;
 }
 h1{
   color: #732255;
+  text-shadow: 0 0 0.2em rgb(231, 242, 228), 0 0 0.2em rgb(231, 242, 228), 0 0 0.2em rgb(231, 242, 228);
 }
-h2{
-  color: #E7F2E4;
-  font-style: italic;
+p{
+  color: #685454;
 }
 h3{
   color: #732255;
   font-style: italic;
   text-transform: uppercase;
 }
-p{
+h2{
   color: #732255;
+  font-size: x-large;
+  text-shadow: 0 0 0.2em rgb(231, 242, 228), 0 0 0.2em rgb(231, 242, 228), 0 0 0.2em rgb(231, 242, 228);
 }
 .main-box{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #E7F2E4; */
+  text-align: center;
+  width: 90%;
+  background-color: rgb(178, 198, 213);
+  border-radius: 30px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
 }
 .box{
   display: flex;
@@ -30,19 +37,27 @@ p{
   align-items: center;
   padding: 4px;
   margin: 8px;
+  border-radius: 30px;
+  background: linear-gradient(240deg, rgb(178, 198, 213) 20%, rgb(231, 242, 228) 60%, rgba(115, 34, 85) 80%, rgb(178, 198, 213) 90%);
+}
+.par{
+  margin: 8px;
+}
+.picDown{
+  border-radius: 30%;
+  margin-bottom: 20px;
 }
 button{
   background-color: transparent;
   padding: 12px;
-  margin: 8px;
-  border: #732255 1px solid;
+  margin: 2px;
+  border: #732255 2px solid;
   border-radius: 50px;
   color: #732255;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: bold;
 }
 button:hover{
   background-color: #732255;
   color: #E7F2E4;
-  
 }
